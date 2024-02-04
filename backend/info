@@ -1,0 +1,24 @@
+1. data modeling
+2.
+
+database creation
+route teasting
+   1.calcutae how amny route require
+1.21h= i created controller folder then auth controller to handele login route
+in login req just pass authcontroller method 
+
+1.26h data validation in register
+  by using node libary joi(we can do it manualy also)
+1.48 npm install bcrypt.js for password hashing
+
+2.20 lets talk about security jwt
+
+2.40-> get secret key -> goto terminal
+node enter
+const crypto=require('crypto) enter
+crypto.randomBytes(64).tostring('hex') enter
+
+2.50 integrating controller with jwt
+
+3.27 login logout register with token based authentication all cleared
+

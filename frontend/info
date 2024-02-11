@@ -1,0 +1,5 @@
+error to get pho 
+http://localhost:5000;/storage/path; incorest 
+colon was coming from backend env file 
+http://localhost:5000/storage/path;  
+then i compare the link on notepad then i go to env file and remove semicolon

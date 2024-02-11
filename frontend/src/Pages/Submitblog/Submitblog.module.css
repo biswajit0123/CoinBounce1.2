@@ -1,0 +1,57 @@
+.wrapper{
+    margin: 0 auto;
+    width: 70vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 40px;
+font-weight: bold;
+width: inherit;
+text-align: center;
+margin-bottom: 10px;
+}
+.content{
+padding: 10px 30px;
+margin: 10px;
+width: 60%;
+outline: none;
+border-radius: 10px;
+font-size: 20px;
+min-height: 200px;
+border: 1px solid white;
+}
+
+.photopath{
+    margin: 14px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.photopath p{
+    font-size: 18px;
+}
+.photopath .inp{
+cursor: pointer;
+}
+
+.submitbtn{
+background-color: blue;
+color: white;
+border: none;
+outline: none;
+width: 30%;
+border-radius: 10px;
+padding: 10px 20px;
+margin-bottom: 80px;
+cursor: pointer;
+}
+
+.submitbtn:disabled{
+    background-color: #6c8bf8;
+}

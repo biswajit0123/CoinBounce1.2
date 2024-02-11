@@ -1,0 +1,22 @@
+.textinputwrapper{
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        align-items: center;
+}
+
+.textinputwrapper input{
+    padding: 10px 14px;
+    outline: none;
+    margin-top: 10px;
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.ermessage{
+    color: red;
+    margin-top: 5px;
+    text-align: left;
+font-size: 10px;
+}

@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    /* top bottom 20px  */
+    margin: 4px auto;
+    /* it will make horizontal center */
+    width: 80%;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+/* in which link we r we will give active */
+
+.activeStyle {
+    color: #3861fb;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .inActiveStyle {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  /* button */
+  
+  .loginButton{
+border-radius: 10px;
+padding: 10px 15px;
+outline: none;
+border: none;
+font-size: large;
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+  }
+  .loginButton:hover{
+    color: black;
+    background-color: #f3f3f3;
+  }
+  .signupButton{
+    margin-left: 10px;
+    color: white;
+    background-color: #3861fb;
+    outline: none;
+    border: none;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 15px;
+font-size: large;
+font-weight: bold;
+border-radius: 10px;
+    
+  }
+  .signupButton:hover{
+    background-color: #1f4ffd;
+  } 
+  .signoutButton{
+    margin-left: 10px;
+    color: white;
+    background-color: #ea3934;
+    outline: none;
+    border: none;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 15px;
+font-size: large;
+font-weight: bold;
+border-radius: 10px;
+  }
+  .signoutButton:hover{
+    background-color: #e01822;
+  } 
+
+.separator{
+    height: 1px;
+    margin-top: 5px;
+        background: linear-gradient(to right, transparent, #9ba3c2, transparent);
+}
